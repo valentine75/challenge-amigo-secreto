@@ -34,7 +34,7 @@ function sortearAmigo(){
     document.getElementById("listaAmigos").innerHTML="";
     
     if(amigosLista.length===0){
-        alert("Has completado el sorteo");
+        alert("Todos los amigos han sido sorteados");
         document.location.reload();
     }
     // borramos los nombre sorteados
